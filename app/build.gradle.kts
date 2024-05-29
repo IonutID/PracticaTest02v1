@@ -5,6 +5,8 @@ plugins {
 android {
     namespace = "ro.pub.cs.systems.eim.practicaltest02v1"
     compileSdk = 34
+    useLibrary("org.apache.http.legacy")
+
 
     defaultConfig {
         applicationId = "ro.pub.cs.systems.eim.practicaltest02v1"
